@@ -1,6 +1,6 @@
-require 'generators/spree/install/install_generator'
+require 'generators/solidus/install/install_generator'
 
-Spree::InstallGenerator.class_eval do
+Solidus::InstallGenerator.class_eval do
   CORE_MOUNT_ROUTE = "mount Spree::Core::Engine"
 
   def install_routes
